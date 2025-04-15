@@ -36,7 +36,8 @@
                 label: 'Temperatura',
                 data: [30, 29, 28, 25, 22, 23],
                 borderWidth: 1,
-                borderColor: 'red'
+                borderColor: 'red',
+                backgroundColor: 'red'
 
             },
             {
@@ -44,6 +45,8 @@
                 data: [80, 82, 80, 85, 80, 83],
                 borderWidth: 1,
                 borderColor: 'blue',
+                backgroundColor: 'blue'
+
             }]
         },
         options: {
@@ -65,13 +68,16 @@
             datasets: [{
                 label: 'Temperatura Média',
                 data: [22, 24, 27, 23, 20, 18],
-                borderWidth: 1
+                borderWidth: 1,
+                backgroundColor: 'red',
+                fill:true
             },
             {
                     label: 'Umidade Média',
                     data: [90, 89, 93, 87, 88, 82],
-                    borderWidth: 1
-
+                    borderWidth: 1,
+                    backgroundColor: 'blue',
+                    fill:true
                 }]
             
             },
